@@ -46,97 +46,101 @@
 
     <!-- Inicio de main -->
     <main>
-        <div class="form-register"> 
-        <form action=" " method="POST">
-            <h2>Crea tu cuenta</h2>
-            <div>
-                <label for="nombre"></label>
-                <i class="fas fa-user-alt"></i>
-                <input type="text" name="nombreyapellido" id="nombre" placeholder="Nombre y Apellido" maxlength="30" required>
-            </div>
-            <br>
-            <div>
-                <label for="usuario"></label>
-                <i class="fas fa-user-check"></i>
-                <input type="text" name="usuario" id="usuario" placeholder="Usuario" maxlength="30" required>
-            </div>
-            <br>
-            <div>
-                <label for="nacimiento"></label>
-                <i class="fas fa-baby"></i>
-                <input type="date" name="nacimiento" id="nacimiento" value="12/07/2021">
-            </div>
-            <br>
-            <div>
-                <label for="domicilio"></label>
-                <i class="fas fa-home"></i>
-                <input type="text" name="domicilio" id="domicilio" class="type-text" placeholder="Domicilio" maxlength="50">
-            </div>
-            <br>
-            <div>
-                <label for="perfil-cliente"></label>
-                <h4>Selecciona tu perfil:</h4>
-                <i class="fas fa-user-tag"></i>
+        <div class="form-register">
+            <form action=" " method="POST">
+                <h2>Crea tu cuenta</h2>
+                <div>
+                    <label for="nombre"></label>
+                    <i class="fas fa-user-alt"></i>
+                    <input type="text" name="nombreyapellido" id="nombre" placeholder="Nombre y Apellido" maxlength="30"
+                        required>
+                </div>
                 <br>
-                <label>Quiero vender
-                    <input type="radio" name="vendedor" value="cliente-vendedor" id="perfil-cliente"></label>
-                <label>Quiero comprar
-                    <input type="radio" name="comprador" value="cliente-comprador" id="perfil-cliente"></label>
-            </div>
-            <br>
-            <div>
-                <h4>Selecciona las categorias de interes:</h4>
-                <i class="far fa-bookmark"></i>
+                <div>
+                    <label for="usuario"></label>
+                    <i class="fas fa-user-check"></i>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario" maxlength="30" required>
+                </div>
                 <br>
-                <p><label>Electro
-                        <input type="checkbox" name="electro"></label>
-                </p>
+                <div>
+                    <label for="nacimiento"></label>
+                    <i class="fas fa-baby"></i>
+                    <input type="date" name="nacimiento" id="nacimiento" value="12/07/2021">
+                </div>
                 <br>
-                <p><label>Moda
-                        <input type="checkbox" name="moda"></label>
-                </p>
+                <div>
+                    <label for="domicilio"></label>
+                    <i class="fas fa-home"></i>
+                    <input type="text" name="domicilio" id="domicilio" class="type-text" placeholder="Domicilio"
+                        maxlength="50">
+                </div>
                 <br>
-                <p><label>Hogar
-                        <input type="checkbox" name="hogar"></label>
-                </p>
+                <div>
+                    <label for="perfil-cliente"></label>
+                    <h4>Selecciona tu perfil:</h4>
+                    <i class="fas fa-user-tag"></i>
+                    <br>
+                    <label>Quiero vender
+                        <input type="radio" name="vendedor" value="cliente-vendedor" id="perfil-cliente"></label>
+                    <label>Quiero comprar
+                        <input type="radio" name="comprador" value="cliente-comprador" id="perfil-cliente"></label>
+                </div>
                 <br>
-                <p><label>Jugeteria
-                        <input type="checkbox" name="jugueteria"></label>
-                </p>
+                <div>
+                    <h4>Selecciona las categorias de interes:</h4>
+                    <i class="far fa-bookmark"></i>
+                    <br>
+                    <p><label>Electro
+                            <input type="checkbox" name="electro"></label>
+                    </p>
+                    <br>
+                    <p><label>Moda
+                            <input type="checkbox" name="moda"></label>
+                    </p>
+                    <br>
+                    <p><label>Hogar
+                            <input type="checkbox" name="hogar"></label>
+                    </p>
+                    <br>
+                    <p><label>Jugeteria
+                            <input type="checkbox" name="jugueteria"></label>
+                    </p>
+                    <br>
+                    <p><label>Vida Sana
+                            <input type="checkbox" name="vidasana"></label>
+                    </p>
+                </div>
                 <br>
-                <p><label>Vida Sana
-                        <input type="checkbox" name="vidasana"></label>
-                </p>
-            </div>
-            <br>
-            <div>
-                <label for="foto"></label>
-                <i class="fas fa-portrait"></i>
-                <input type="file" name="foto" id="foto" accept=".jpg">
-            </div>
-            <br>
-            <div>
-                <label for="contrasenia"></label>
-                <i class="fas fa-lock-open"></i>
-                <input type="password" name="password" id="contrasenia" placeholder="Contraseña" maxlength="8" required>
-            </div>
-            <br>
-            <div>
-                <label></label>
-                <i class="fas fa-lock-open"></i>
-                <input type="password" name="confirmarcontrasenia" placeholder="Confirmar contraseña" maxlength="8" required>
-            </div>
-            <br>
-            <div>
-                <label for="boton-enviar"></label>
-                <button type="submit" name="enviar" id="boton-enviar">Enviar</button>
-            </div>
-            <br>
-            <div>
-                <label for="boton-borrar"></label>
-                <button type="reset" name="borrar" id="boton-borrar">Borrar</button>
-            </div>
-        </form>
+                <div>
+                    <label for="foto"></label>
+                    <i class="fas fa-portrait"></i>
+                    <input type="file" name="foto" id="foto" accept=".jpg">
+                </div>
+                <br>
+                <div>
+                    <label for="contrasenia"></label>
+                    <i class="fas fa-lock-open"></i>
+                    <input type="password" name="password" id="contrasenia" placeholder="Contraseña" maxlength="8"
+                        required>
+                </div>
+                <br>
+                <div>
+                    <label></label>
+                    <i class="fas fa-lock-open"></i>
+                    <input type="password" name="confirmarcontrasenia" placeholder="Confirmar contraseña" maxlength="8"
+                        required>
+                </div>
+                <br>
+                <div>
+                    <label for="boton-enviar"></label>
+                    <button type="submit" name="enviar" id="boton-enviar">Enviar</button>
+                </div>
+                <br>
+                <div>
+                    <label for="boton-borrar"></label>
+                    <button type="reset" name="borrar" id="boton-borrar">Borrar</button>
+                </div>
+            </form>
         </div>
     </main>
 

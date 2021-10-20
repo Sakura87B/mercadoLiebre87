@@ -28,12 +28,7 @@ main i{
 }
 
 button{
-    background-color: #03264C;
-    color: white;
     font-size: 18px;
-}
-button:hover{
-    background-color: #0022AA;
 }
 
 input:focus{
